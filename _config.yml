@@ -4,11 +4,11 @@ baseurl: "/fcc-responsive-web-design-projects"
 title: "FCC Responsive Web Design"
 description: "Showcasing my journey through the FreeCodeCamp Responsive Web Design certification."
 
-remote_theme: pages-themes/merlot@v0.2.0
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
+- jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-sitemap
 
 author:
   name: "Domiziana"
