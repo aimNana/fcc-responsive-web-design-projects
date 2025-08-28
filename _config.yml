@@ -2,7 +2,7 @@ url: "https://aimnana.github.io"
 baseurl: "/fcc-responsive-web-design-projects"
 
 title: "FCC Responsive Web Design"
-description: "Portfolio dei progetti realizzati nel percorso FreeCodeCamp • Responsive Web Design."
+description: "Showcasing my journey through the FreeCodeCamp Responsive Web Design certification."
 
 remote_theme: pages-themes/merlot@v0.2.0
 plugins:
@@ -13,8 +13,3 @@ plugins:
 author:
   name: "Domiziana"
   github: "aimNana"
-
-# Opzionali (migliorano anteprime social/SEO)
-#logo: /assets/img/avatar.png        # crea il file se vuoi un’icona
-social:
-  github: aimNana
