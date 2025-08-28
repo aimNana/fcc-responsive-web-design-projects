@@ -37,8 +37,6 @@ This repository collects the five required projects for the
    A portfolio site combining **all key concepts**: forms, semantic HTML, Flexbox/Grid, and responsive design.  
    [Live Demo](https://aimNana.github.io/fcc-responsive-web-design-projects/personal-portfolio/) | [Source Code](./personal-portfolio/)
 
----
-
 ## ▶️ How to View
 
 Each project is available as a live demo via GitHub Pages (links above).  
@@ -50,14 +48,10 @@ cd fcc-responsive-web-design-projects/survey-form
 open index.html   # or double click index.html
 ```
 
----
-
 ## 🛠️ Technologies
 - HTML5  
 - CSS3 (Flexbox, Grid, Media Queries)  
 - Responsive design & accessibility principles  
-
----
 
 ## 📜 About
 These projects were built as part of the 
@@ -67,8 +61,6 @@ It showcases:
 - Solid understanding of semantic HTML and responsive CSS  
 - Focus on accessibility and cross-device compatibility  
 - Clean structure and maintainable front-end code practices
-
----
 
 ## 📄 License
 This repository is available under the [MIT License](./LICENSE).  
