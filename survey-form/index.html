@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Referral Source Survey</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <h1 id="title">Where Did You Find Us?</h1>
+    <p id="description">This short survey helps us improve our reach.</p>
+
+    <form id="survey-form" method="post">
+      <fieldset>
+        <legend>Personal Info</legend>
+
+        <label id="name-label" for="name">
+          Your full name:
+          <input id="name" type="text" placeholder="First – Last" required />
+        </label>
+
+        <label id="email-label" for="email">
+          Your email address:
+          <input id="email" type="email" placeholder="name@example.com" required />
+        </label>
+
+        <label id="phone-label" for="phone">
+          Your phone number:
+          <input id="phone" type="tel" placeholder="+39 333 1234567" required />
+        </label>
+
+        <label for="age-range">Select your age range:</label>
+        <select id="age-range" name="age_range" required>
+          <option value="">(Select one)</option>
+          <option value="under-18">Under 18</option>
+          <option value="18-24">18–24</option>
+          <option value="25-34">25–34</option>
+          <option value="35-44">35–44</option>
+          <option value="45-54">45–54</option>
+          <option value="55-64">55–64</option>
+          <option value="65-plus">65+</option>
+        </select>
+      </fieldset>
+
+      <fieldset class="no-padding">
+        <legend>How did you hear about us?</legend>
+        <label for="ref-social">
+          <input id="ref-social" type="radio" name="referrer" value="social-media" class="inline" required>
+          Social media
+        </label>
+        <label for="ref-friends">
+          <input id="ref-friends" type="radio" name="referrer" value="friends-word-of-mouth" class="inline">
+          Friends / Word of mouth
+        </label>
+        <label for="ref-search">
+          <input id="ref-search" type="radio" name="referrer" value="online-search" class="inline">
+          Online search (Google, Bing…)
+        </label>
+        <label for="ref-website">
+          <input id="ref-website" type="radio" name="referrer" value="website-blog" class="inline">
+          Website / Blog
+        </label>
+        <label for="ref-ads">
+          <input id="ref-ads" type="radio" name="referrer" value="advertisement" class="inline">
+          Advertisement
+        </label>
+      </fieldset>
+
+      <fieldset class="no-padding">
+        <legend>Feedback</legend>
+        <label for="comments">
+          <textarea id="comments" rows="10" cols="30" placeholder="Share your feedback about this survey"></textarea>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Terms & Conditions</legend>
+        <label for="terms">
+          <input type="checkbox" id="terms" value="agree-terms" class="inline" required>
+          I have read and agree to the Terms & Conditions
+        </label>
+        <label for="privacy">
+          <input type="checkbox" id="privacy" value="agree-privacy" class="inline" required>
+          I agree to the Privacy Policy
+        </label>
+      </fieldset>
+
+      <input id="submit" type="submit" value="Submit" />
+    </form> 
+  </body>  
+</html>
