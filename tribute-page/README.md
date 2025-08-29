@@ -2,7 +2,7 @@
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![Status](https://img.shields.io/badge/Progress-In%20progress-orange)<!--(https://img.shields.io/badge/Status-Completed-brightgreen)-->
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 **Description**  
 A tribute page dedicated to a historical or notable figure.  
