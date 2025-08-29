@@ -55,7 +55,7 @@ open index.html   # or double click index.html
 
 ## 📜 About
 These projects were built as part of the 
-**[FreeCodeCamp Responsive Web Design Certification]([https://www.freecodecamp.org/learn/responsive-web-design/](https://www.freecodecamp.org/learn/2022/responsive-web-design))**.  
+**[FreeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design)**.  
 
 It showcases:
 - Solid understanding of semantic HTML and responsive CSS  
